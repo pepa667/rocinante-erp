@@ -1,0 +1,11 @@
+services:
+  db_legacy:
+    image: mariadb:10.3
+    container_name: rocinante_resgate
+    env_file: .env
+    volumes:
+      # Mapeia a pasta dp2006 diretamente para o diretório de dados do MariaDB
+      - ./legacy_data:/var/lib/mysql
+    ports:
+      - "3306:3306"
+    restart: always

@@ -1,6 +1,7 @@
-node_modules/
-.next/
-legacy_data/
+app/node_modules/
+app/.next/
+docker/legacy_db/legacy_data/
 .env
+.env.local
 .DS_Store
 *.log

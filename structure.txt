@@ -1,0 +1,170 @@
+.
+├── _config.yml
+├── _sass
+│   └── minima
+│       ├── _base.scss
+│       ├── _layout.scss
+│       ├── custom-styles.scss
+│       ├── custom-variables.scss
+│       ├── initialize.scss
+│       └── skins
+│           ├── auto.scss
+│           ├── classic.scss
+│           ├── dark.scss
+│           ├── solarized-dark.scss
+│           ├── solarized-light.scss
+│           └── solarized.scss
+├── 404.html
+├── app
+│   └── src
+│       ├── app
+│       ├── components
+│       └── lib
+├── assets
+│   └── css
+│       └── style.scss
+├── docker
+│   ├── legacy_db
+│   │   ├── docker-compose.yml
+│   │   └── legacy_data
+│   │       └── dp2006
+│   │           ├── cadastro.frm
+│   │           ├── cadastro.MYD
+│   │           ├── cadastro.MYI
+│   │           ├── centro_de_custo_itens.frm
+│   │           ├── centro_de_custo_itens.MYD
+│   │           ├── centro_de_custo_itens.MYI
+│   │           ├── centro_de_custo.frm
+│   │           ├── centro_de_custo.MYD
+│   │           ├── centro_de_custo.MYI
+│   │           ├── cfop.frm
+│   │           ├── cfop.MYD
+│   │           ├── cfop.MYI
+│   │           ├── configuracao.frm
+│   │           ├── configuracao.MYD
+│   │           ├── configuracao.MYI
+│   │           ├── documentos.frm
+│   │           ├── documentos.MYD
+│   │           ├── documentos.MYI
+│   │           ├── forma_de_pagamento_parcelas.frm
+│   │           ├── forma_de_pagamento_parcelas.MYD
+│   │           ├── forma_de_pagamento_parcelas.MYI
+│   │           ├── forma_de_pagamento.frm
+│   │           ├── forma_de_pagamento.MYD
+│   │           ├── forma_de_pagamento.MYI
+│   │           ├── grupo_operacao.frm
+│   │           ├── grupo_operacao.MYD
+│   │           ├── grupo_operacao.MYI
+│   │           ├── license.frm
+│   │           ├── license.MYD
+│   │           ├── license.MYI
+│   │           ├── license(2).frm
+│   │           ├── lucro.frm
+│   │           ├── lucro.MYD
+│   │           ├── lucro.MYI
+│   │           ├── maquinas.frm
+│   │           ├── maquinas.MYD
+│   │           ├── maquinas.MYI
+│   │           ├── mensagem.frm
+│   │           ├── mensagem.MYD
+│   │           ├── mensagem.MYI
+│   │           ├── mov2.frm
+│   │           ├── mov2.MYD
+│   │           ├── mov2.MYI
+│   │           ├── movimento_financeiro.frm
+│   │           ├── movimento_financeiro.MYD
+│   │           ├── movimento_financeiro.MYI
+│   │           ├── movimento_produtos_composicao.frm
+│   │           ├── movimento_produtos_composicao.MYD
+│   │           ├── movimento_produtos_composicao.MYI
+│   │           ├── movimento_produtos_grafica.frm
+│   │           ├── movimento_produtos_grafica.MYD
+│   │           ├── movimento_produtos_grafica.MYI
+│   │           ├── movimento_produtos.frm
+│   │           ├── movimento_produtos.MYD
+│   │           ├── movimento_produtos.MYI
+│   │           ├── movimento_servicos.frm
+│   │           ├── movimento_servicos.MYD
+│   │           ├── movimento_servicos.MYI
+│   │           ├── movimento.frm
+│   │           ├── movimento.MYD
+│   │           ├── movimento.MYI
+│   │           ├── nota_fiscal_modelo.frm
+│   │           ├── nota_fiscal_modelo.MYD
+│   │           ├── nota_fiscal_modelo.MYI
+│   │           ├── nota_fiscal_produtos.frm
+│   │           ├── nota_fiscal_produtos.MYD
+│   │           ├── nota_fiscal_produtos.MYI
+│   │           ├── nota_fiscal_servicos.frm
+│   │           ├── nota_fiscal_servicos.MYD
+│   │           ├── nota_fiscal_servicos.MYI
+│   │           ├── nota_fiscal.frm
+│   │           ├── nota_fiscal.MYD
+│   │           ├── nota_fiscal.MYI
+│   │           ├── operacao.frm
+│   │           ├── operacao.MYD
+│   │           ├── operacao.MYI
+│   │           ├── ordem_servico.frm
+│   │           ├── ordem_servico.MYD
+│   │           ├── ordem_servico.MYI
+│   │           ├── produtos_anexados.frm
+│   │           ├── produtos_anexados.MYD
+│   │           ├── produtos_anexados.MYI
+│   │           ├── produtos_cadastro.frm
+│   │           ├── produtos_cadastro.MYD
+│   │           ├── produtos_cadastro.MYI
+│   │           ├── produtos_cp.frm
+│   │           ├── produtos_cp.MYD
+│   │           ├── produtos_cp.MYI
+│   │           ├── produtos_estoque.frm
+│   │           ├── produtos_estoque.MYD
+│   │           ├── produtos_estoque.MYI
+│   │           ├── produtos_fornecedores.frm
+│   │           ├── produtos_fornecedores.MYD
+│   │           ├── produtos_fornecedores.MYI
+│   │           ├── produtos_grupo.frm
+│   │           ├── produtos_grupo.MYD
+│   │           ├── produtos_grupo.MYI
+│   │           ├── produtos_icms.frm
+│   │           ├── produtos_icms.MYD
+│   │           ├── produtos_icms.MYI
+│   │           ├── produtos_unidades.frm
+│   │           ├── produtos_unidades.MYD
+│   │           ├── produtos_unidades.MYI
+│   │           ├── produtos_variaveis.frm
+│   │           ├── produtos_variaveis.MYD
+│   │           ├── produtos_variaveis.MYI
+│   │           ├── produtos.frm
+│   │           ├── produtos.MYD
+│   │           ├── produtos.MYI
+│   │           ├── relacionamentos.frm
+│   │           ├── relacionamentos.MYD
+│   │           ├── relacionamentos.MYI
+│   │           ├── servicos.frm
+│   │           ├── servicos.MYD
+│   │           ├── servicos.MYI
+│   │           ├── sessao_produtos.frm
+│   │           ├── sessao_produtos.MYD
+│   │           ├── sessao_produtos.MYI
+│   │           ├── sessao.frm
+│   │           ├── sessao.MYD
+│   │           ├── sessao.MYI
+│   │           ├── uf.frm
+│   │           ├── uf.MYD
+│   │           ├── uf.MYI
+│   │           ├── usuario_operacao.frm
+│   │           ├── usuario_operacao.MYD
+│   │           ├── usuario_operacao.MYI
+│   │           ├── usuario.frm
+│   │           ├── usuario.MYD
+│   │           ├── usuario.MYI
+│   │           ├── versao.frm
+│   │           ├── versao.MYD
+│   │           └── versao.MYI
+│   ├── mariadb
+│   └── nextjs
+├── LICENSE
+├── README.md
+└── structure.txt
+
+17 directories, 151 files

@@ -78,10 +78,10 @@ minima:
   social_links:
     - title: Minima Theme repository at GitHub
       icon: github
-      url: "https://github.com/jekyll/minima"
-    - title: Jekyll at X (formerly Twitter)
-      icon: x-twitter
-      url: "https://x.com/jekyllrb"
+      url: "https://github.com/pepa667/"
+    # - title: Jekyll at X (formerly Twitter)
+    #   icon: x-twitter
+    #   url: "https://x.com/jekyllrb"
 #
 #   Hide syndication feed subscription link.
 #     RSS / Atom feed link is always rendered as the last item of social-links
